@@ -1,0 +1,39 @@
+DROP TABLE IF EXISTS user;
+DROP TABLE IF EXISTS userstuff;
+DROP TABLE IF EXISTS useradmin;
+
+CREATE TABLE user (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username TEXT UNIQUE NOT NULL
+);
+
+CREATE TABLE userstuff(
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	balance REAL NOT NULL,
+	age INTEGER NOT NULL,
+	creditCard INTEGER NOT NULL, 
+	months INTEGER NOT NULL, 
+	status INTEGER NOT NULL,
+	fecha DATE NOT NULL, 
+	FOREIGN KEY (fecha)  REFERENCES user(id)
+);
+CREATE TABLE useradmin(
+ id INTEGER PRIMARY KEY AUTOINCREMENT,
+ useradminame TEXT UNIQUE NOT NULL,
+ FOREIGN KEY (useradminame) REFERENCES userstuff(id_trans) 
+ );
+INSERT INTO useradmin (useradminame) VALUES ('easycredit');
+
+
+
+CREATE TABLE userinfo(
+	id INTEGER PRIMARY KEY AUTOINCREMENT, 
+	balance REAL NOT NULL,
+	age INTEGER NOT NULL,
+	creditCard INTEGER NOT NULL,
+	plazo INTEGER NOT NULL,
+	status TEXT,
+	fecha DEFAULT CURRENT_DATE,
+	FOREIGN KEY (fecha) REFERENCES user(id)
+);
+
