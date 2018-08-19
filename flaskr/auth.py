@@ -160,20 +160,12 @@ def update_table():
 		go = request.form['go']
 		db = get_db()
 
-
-
-		if go == 'No':
-			var = db.execute('UPDATE userinfo SET status  WHERE status = ?',(go,)
+		var = db.execute('UPDATE userinfo SET status = ?',(go)
 			).fetchone()
-			db.commit()
+		db.commit()
 
-		 
 
-		if go == dont = request.form['deny']
-			var2= db.execute('UPDATE  userinfo SET status= ? WHERE id = ?',(dont,id)
-			).fetchone()
-			db.commit()
-
+		
 
 	return render_template('auth/dashboard.html')
 
