@@ -1,4 +1,3 @@
 # easycredit
 
-
-*hola
+URL : https://easy-credit.herokuapp.com/
