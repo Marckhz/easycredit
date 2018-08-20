@@ -36,9 +36,8 @@ para continuar con el desarrollo del proyecto y de la misma manera para ejecutar
 Todas los paquetes que se hablaran a continuacion seran instalados mediante requirements.txt  asi que no hay que preocuparse por que falte alguno.
 
 El proyecto instalable se encuentra en la carpeta **dist** este es un archivo de tipo whl. Se instala mediante pip
-**-------------------------------------------------------------------------------------------------------------------------**
 **pip install "el archivo**
-**-------------------------------------------------------------------------------------------------------------------------**
+
 
 Instalara todo el proyecto de la manera en la que fue desarrollado. 
 
