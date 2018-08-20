@@ -46,12 +46,11 @@ Despues de este comando se instalaran todas las dependencias para ejecutar el pr
 El proyecto esta bajo Gunicorn que es un Python WSGI HTTP server para UNIX
 
 Para ejecutar el servidor  primero es necesario ejecutar estos dos comandos. 
-**-------------------------------------------------------------------------------------------------------------------------**
+
 
 **export FLASK_APP=flaskr**
 **export FLASK_ENV=env**
 
-**-------------------------------------------------------------------------------------------------------------------------**
 
 El proyecto se comporta como paquete es por esto la razon de este estilo de ejecucion.
 
@@ -59,5 +58,4 @@ Se utilizo SQLite3, Para inicializar la base datos ---> **flask init-db**
 
 Ejecutar servidor ---> **flask run**
 Es todo lo que se necesita para ejecutar el proyecto. 
-**-------------------------------------------------------------------------------------------------------------------------**
 
