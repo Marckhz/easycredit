@@ -1,10 +1,17 @@
 # easycredit
 
+
+#Antes de comenzar
+
+
 URL : https://easy-credit.herokuapp.com/
 
 
 GitHub: https://github.com/Marckhz/easycredit
 Para la instalacion de todos los modulos del proyecto clonar el reposotorio de github. 
+El proyecto se trabajo en Python con el microframework Flask. 
+
+
 
 La instalacion de los paquetes se realiza mediante pip. Si tienes instalada una version de python2>=2.7 o python3>=3.4
 no tendras problemas para la instalacion. 
@@ -18,3 +25,5 @@ Todas los paquetes que se hablaran a continuacion seran instalados mediante requ
 
 Despues de este comando se instalaran todas las dependencias para ejecutar el proyecto. 
 El proyecto esta bajo Gunicorn que es un Python WSGI HTTP server para UNIX
+
+Hay tres maneras de ejecutarse el servidor localmente, la primera mediante Heroku, la aplicacion esta alojada en Heroku, asi que es bueno ejecutar la aplicacion de esta manera pues nos da el historial de los errores que pueden llegar a pasar al darse el deploy. La segunda manera es ejecutar mediante Gunicorn, gunicorn es un tipo servidor HTTP este es simplemente mas robusto que el que contiene Flask por defecto. 
