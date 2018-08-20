@@ -11,12 +11,13 @@ Y esto fue lo que alcanze hacer en dos dias. Creo que Python no es la mejor mane
 Utilize Flask como microframework para desarrollar el proyecto, utilza jinja2 para interactuar con el Front End.
 
 **Tech**
-Flask
-Jinja2
-SQLite3
-Heroku
-Gunicorn
-VirtualEnv
+
+-Flask-
+-Jinja2-
+-SQLite3-
+-Heroku-
+-Gunicorn-
+-VirtualEnv-
 
 **-------------------------------------------------------------------------------------------------------------------------**
 
