@@ -3,8 +3,20 @@
 
  **Antes de comenzar**
 
+El proyecto no esta terminado. 
 
+No tengo mucha experiencia en el ambito de la programacion,pero, no es nada que no pueda mejorar. Solo he desarrollado cosas pequeñas! Mucho menos web.
+Y esto fue lo que alcanze hacer en dos dias. Creo que Python no es la mejor manera para desarrollar proyectos Web, estoy muy seguro que es mas sencillo con un Framework de Javascript. Lamentablemente no manejo ninguna de esas herramientas. 
 
+Utilize Flask como microframework para desarrollar el proyecto, utilza jinja2 para interactuar con el Front End.
+
+**Tech**
+Flask
+Jinja2
+SQLite3
+Heroku
+Gunicorn
+VirtualEnv
 
 **-------------------------------------------------------------------------------------------------------------------------**
 
