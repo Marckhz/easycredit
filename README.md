@@ -47,8 +47,7 @@ El proyecto esta bajo Gunicorn que es un Python WSGI HTTP server para UNIX
 Para ejecutar el servidor  primero es necesario ejecutar estos dos comandos. 
 
 
-**export FLASK_APP=flaskr**
-**export FLASK_ENV=env**
+**export FLASK_APP=flaskr**   ---- >  **export FLASK_ENV=env**
 
 
 El proyecto se comporta como paquete es por esto la razon de este estilo de ejecucion.
