@@ -1,7 +1,7 @@
 # easycredit
 
 
-#Antes de comenzar
+ **Antes de comenzar**
 
 
 URL : https://easy-credit.herokuapp.com/
